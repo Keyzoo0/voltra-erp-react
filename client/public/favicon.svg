@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="7" fill="#0A0D0C"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" stroke="#2A3431"/>
+  <!-- chip body -->
+  <rect x="9" y="9" width="14" height="14" rx="2.5" fill="#121817" stroke="#E8A33D" stroke-width="1.5"/>
+  <!-- die -->
+  <rect x="13" y="13" width="6" height="6" rx="1" fill="#E8A33D"/>
+  <!-- pins -->
+  <g stroke="#3FD0CE" stroke-width="1.5" stroke-linecap="round">
+    <path d="M12 9V5.5M16 9V5.5M20 9V5.5"/>
+    <path d="M12 23V26.5M16 23V26.5M20 23V26.5"/>
+    <path d="M9 12H5.5M9 16H5.5M9 20H5.5"/>
+    <path d="M23 12H26.5M23 16H26.5M23 20H26.5"/>
+  </g>
+</svg>
