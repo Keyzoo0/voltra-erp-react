@@ -1,0 +1,14 @@
+{
+  "name": "voltra-erp",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Voltra ERP — frontend showcase (React + Vite). App lives in client/.",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "preview": "npm --prefix client run preview",
+    "typecheck": "npm --prefix client run typecheck",
+    "install:client": "npm --prefix client install",
+    "postinstall": "npm --prefix client install"
+  }
+}

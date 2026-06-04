@@ -98,7 +98,7 @@ export function Login() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 + i * 0.07 }}
               >
-                <StatusLED tone={["copper", "signal", "ok", "warn"][i] as "copper"} />
+                <StatusLED tone={(["copper", "live", "ok", "hold"] as const)[i] ?? "copper"} />
                 {f}
               </motion.li>
             ))}

@@ -9,9 +9,10 @@ interface Props {
 
 /** A small glowing hardware-style indicator LED. */
 export function StatusLED({ tone, pulse, className }: Props) {
+  const style = TONE[tone] ?? TONE.neutral;
   return (
     <span
-      className={cn("led", TONE[tone].dot, pulse && "animate-pulse-led", className)}
+      className={cn("led", style.dot, pulse && "animate-pulse-led", className)}
       aria-hidden
     />
   );

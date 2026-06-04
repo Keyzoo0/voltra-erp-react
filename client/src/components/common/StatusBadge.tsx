@@ -12,11 +12,12 @@ interface BadgeProps {
 }
 
 export function Badge({ tone, children, led, pulse, className }: BadgeProps) {
+  const style = TONE[tone] ?? TONE.neutral;
   return (
     <span
       className={cn(
         "inline-flex items-center gap-1.5 rounded-md border px-2 py-0.5 text-2xs font-semibold uppercase tracking-[0.06em]",
-        TONE[tone].chip,
+        style.chip,
         className,
       )}
     >
