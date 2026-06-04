@@ -5,11 +5,13 @@
 
 ![Status](https://img.shields.io/badge/status-production-green)
 ![Stack](https://img.shields.io/badge/stack-React%20%2B%20FastAPI%20%2B%20PostgreSQL-blue)
-![Demo](https://img.shields.io/badge/demo-live%20on%20Vercel-black)
+[![Demo](https://img.shields.io/badge/demo-live%20on%20Vercel-black)](https://erp-portofolio.vercel.app)
 
 ---
 
 ## ▶️ Demo
+
+### 🔗 Live: **https://erp-portofolio.vercel.app**
 
 > ⚙️ **Catatan portfolio:** repo ini berisi **frontend showcase** dari Voltra ERP —
 > React 18 + TypeScript + Tailwind + Zustand — yang berjalan di atas **mock API in-browser**
